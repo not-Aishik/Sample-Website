@@ -128,3 +128,31 @@ $(window).scroll(function () {
         }
     });
 });
+
+
+/*----------------------------------------------AUTO SLIDER-------------------------------------------------*/
+
+
+setInterval(function () {
+    if (pos == 1) {
+        document.getElementById("s2").checked = true;
+        pos = 2;
+    }
+    else if (pos == 2) {
+        document.getElementById("s3").checked = true;
+        pos = 3;
+    }
+    else if (pos == 3) {
+        document.getElementById("s4").checked = true;
+        pos = 4;
+    }
+    else if (pos == 4) {
+        document.getElementById("s5").checked = true;
+        pos = 5;
+    }
+    else if (pos == 5) {
+        document.getElementById("s1").checked = true;
+        pos = 1;
+    }
+    document.getElementById("myid").innerHTML = x;
+}, 1500);
