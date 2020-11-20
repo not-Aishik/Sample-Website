@@ -340,3 +340,16 @@ a {
 
 
 
+.mycard{
+    animation: slide 2s forwards;
+  }
+  
+  @keyframes slide {
+    0% { left: -700px; }
+    100% {left: 0px;}
+  } 
+  
+  .invclass{
+    visibility:hidden;
+  }
+  
