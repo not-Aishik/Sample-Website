@@ -222,7 +222,73 @@ background: linear-gradient(to right, #0ABFBC, #FC354C);
 
 /*----------------------------------------------------------------------------------------------------------------------------------------------*/
 
+.navbar {
+  transition: all 0.7s;
+}
 
+.navbar .nav-link {
+  color: rgb(47, 0, 255);
+}
+
+.navbar .nav-link:hover,
+.navbar .nav-link:focus {
+  color: rgb(252, 0, 0);
+  text-decoration: none;
+}
+
+.navbar .navbar-brand {
+  color: rgb(0, 0, 0);
+}
+
+
+/* Change navbar styling on scroll */
+.navbar.active {
+  background: rgb(0, 0, 0);
+  box-shadow: 1px 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.navbar.active .nav-link {
+  color: rgb(255, 255, 255);
+}
+
+.navbar.active .nav-link:hover,
+.navbar.active .nav-link:focus {
+  color: rgb(255, 0, 0);
+  text-decoration: none;
+}
+
+.navbar.active .navbar-brand {
+  color: rgb(255, 255, 255);
+}
+
+
+/* FontAwesome for working BootSnippet*/
+
+
+.btn-primary:hover,
+.btn-primary:focus {
+  background-color: #108d6f;
+  border-color: #108d6f;
+  box-shadow: none;
+  outline: none;
+}
+
+.btn-primary {
+  color: #fff;
+  background-color: #007b5e;
+  border-color: #007b5e;
+}
+
+section {
+  padding: 60px 0;
+}
+
+section .section-title {
+  text-align: center;
+  color: #000000;
+  margin-bottom: 50px;
+  text-transform: uppercase;
+}
 
 
 

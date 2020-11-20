@@ -7,7 +7,7 @@ a, a:hover, a:focus, a:active {
 
 
 .navbar {
-    transition: all 0.6s;
+    transition: all 0.7s;
 }
 
 .navbar .nav-link {
@@ -301,10 +301,15 @@ a {
       width: 0ch;
     }
     100% {
-      width: 30ch;
+      width: 28ch;
     }
   }
-  
+
+  @media screen and (max-width: 600px) {
+    .myh1 {
+      font-size: 30px;
+    }
+  }
 
   /*------------------------RANDOM ANIMATION-------------------------------------------*/
 
@@ -341,7 +346,7 @@ a {
 
 
 .mycard{
-    animation: slide 2s forwards;
+    animation: slide 5s forwards;
   }
   
   @keyframes slide {
