@@ -902,7 +902,7 @@ input[type=radio]:checked {
     display: none;
   }
   .hiddenclass1{
-    display: ;
+    display: none;
   }
   .showcontainer{
     display: block;
