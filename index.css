@@ -871,6 +871,18 @@ input[type=radio]:checked {
   margin-right: 100px ;
 }
 
+.hiddenclass1{
+  display: ;
+}
+.showcontainer{
+  display: none;
+}
+
+.mycard {
+  margin: 0 auto; 
+  float: none; 
+  margin-bottom: 10px; 
+}
 
 /*------------------------------Random CSS----------------------------------------------------*/
 
@@ -888,5 +900,11 @@ input[type=radio]:checked {
   }
   .hiddenclass{
     display: none;
+  }
+  .hiddenclass1{
+    display: ;
+  }
+  .showcontainer{
+    display: block;
   }
 }
