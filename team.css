@@ -346,7 +346,7 @@ a {
 
 
 .mycard{
-    animation: slide 5s forwards;
+    animation: slide 8s forwards;
   }
   
   @keyframes slide {
