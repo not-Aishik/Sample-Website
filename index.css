@@ -871,9 +871,6 @@ input[type=radio]:checked {
   margin-right: 100px ;
 }
 
-.hiddenclass1{
-  display: ;
-}
 .showcontainer{
   display: none;
 }
@@ -883,7 +880,9 @@ input[type=radio]:checked {
   float: none; 
   margin-bottom: 10px; 
 }
-
+.hidethis{
+  display: none;
+}
 /*------------------------------Random CSS----------------------------------------------------*/
 
 
